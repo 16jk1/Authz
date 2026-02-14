@@ -1,3 +1,7 @@
 spring:
   application:
     name: auth
+
+# JWT secret loaded from environment variable JWT_SECRET at runtime
+jwt:
+  secret: ${JWT_SECRET}
